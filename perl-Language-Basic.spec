@@ -5,12 +5,12 @@ Summary:	Language::Basic perl module - BASIC language implementation
 Summary(pl):	Modu³ perla Language::Basic - implementacja jêzyka BASIC
 Name:		perl-Language-Basic
 Version:	1.44
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +30,8 @@ Applesoft czy GW-Basic.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -46,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes NOTES README TODO wumpus.bas
 %attr(755,root,root) %{_bindir}/*
-%{perl_sitelib}/Language/Basic.pm
-%{perl_sitelib}/Language/Basic
+%{perl_vendorlib}/Language/Basic.pm
+%{perl_vendorlib}/Language/Basic
 %{_mandir}/man3/*
