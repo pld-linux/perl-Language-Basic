@@ -5,7 +5,7 @@ Summary:	Language::Basic Perl module - BASIC language implementation
 Summary(pl):	Modu³ Perla Language::Basic - implementacja jêzyka BASIC
 Name:		perl-Language-Basic
 Version:	1.44
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+# get rid of pod documentation
+rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/Language/Basic/*.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
