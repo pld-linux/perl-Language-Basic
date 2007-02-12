@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	Basic
 Summary:	Language::Basic Perl module - BASIC language implementation
-Summary(pl):	Modu³ Perla Language::Basic - implementacja jêzyka BASIC
+Summary(pl.UTF-8):   ModuÅ‚ Perla Language::Basic - implementacja jÄ™zyka BASIC
 Name:		perl-Language-Basic
 Version:	1.44
 Release:	4
@@ -22,9 +22,9 @@ language. It allows you to run BASIC programs or translate them to
 Perl scripts. Note that it implements 80's-era BASIC. Think Applesoft
 or GW-BASIC.
 
-%description -l pl
-Language::Basic to perlowa implementacja jêzyka programowania BASIC.
-Modu³ ten pozwala na uruchamianie programów w BASIC-u lub t³umaczenie
+%description -l pl.UTF-8
+Language::Basic to perlowa implementacja jÄ™zyka programowania BASIC.
+ModuÅ‚ ten pozwala na uruchamianie programÃ³w w BASIC-u lub tÅ‚umaczenie
 ich na skrypty Perla. Jest to BASIC rodem z lat 80-tych - podobny do
 Applesoft czy GW-Basic.
 
