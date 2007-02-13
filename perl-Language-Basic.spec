@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	Basic
 Summary:	Language::Basic Perl module - BASIC language implementation
-Summary(pl.UTF-8):   Moduł Perla Language::Basic - implementacja języka BASIC
+Summary(pl.UTF-8):	Moduł Perla Language::Basic - implementacja języka BASIC
 Name:		perl-Language-Basic
 Version:	1.44
 Release:	4
