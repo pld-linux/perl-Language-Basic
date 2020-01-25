@@ -1,6 +1,5 @@
 %define		pdir	Language
 %define		pnam	Basic
-%include	/usr/lib/rpm/macros.perl
 Summary:	Language::Basic Perl module - BASIC language implementation
 Summary(pl.UTF-8):	Moduł Perla Language::Basic - implementacja języka BASIC
 Name:		perl-Language-Basic
