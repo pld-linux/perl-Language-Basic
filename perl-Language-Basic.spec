@@ -4,7 +4,7 @@ Summary:	Language::Basic Perl module - BASIC language implementation
 Summary(pl.UTF-8):	Moduł Perla Language::Basic - implementacja języka BASIC
 Name:		perl-Language-Basic
 Version:	1.44
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
